@@ -1,2 +1,2 @@
-# OTOG-Editorial-2020
-You can read ALL Editorial from OTOG contest here.
+# OTOG Editorial 2020
+สามารถกลับมาอ่าน Editorial ได้ :)
