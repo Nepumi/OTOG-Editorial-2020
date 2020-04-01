@@ -21,7 +21,7 @@
 
 ตอนนี้จะได้ตารางประมาณแบบนี้
 
-![ตารางที่ไล่โง่ๆแล้ว](https://github.com/Nepumi/Otog-16-We-need-to-go-DEEPER/blob/master/ImageStuff/F.png?raw=true)
+![ตารางที่ไล่โง่ๆแล้ว](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/16-We%20need%20to%20go%20DEEPER/IMAGE/F.png?raw=true)
 
 > แล้วเราจะตีกรอบสีเขียวยังไงละ
 
