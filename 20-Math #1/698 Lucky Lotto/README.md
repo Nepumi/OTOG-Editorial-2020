@@ -49,7 +49,7 @@ int main(){
 > ทำไมได้แค่ 30 คะแนนอะ ผิดตรงไหน! มันรับไม๊ด๊าาาาาาาาาาาาาาาาาาาาาาย!!!
 
 
-## Solution B Precalculated and Obtimization(100 point)
+## Solution B Precalculated and Optimization(100 point)
 
 **เรามาดูกันว่าเรามีปัญหาอะไรบ้าง**
 
