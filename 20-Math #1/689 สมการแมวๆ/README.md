@@ -11,7 +11,7 @@
 
 > Solution นี้มาจากน้อง X (ไม่ได้ระบุนาม)
 
-ด้วยความที่มีการ Input/Output ที่สูงมากๆ เลยมีการใช้บางสิ่งที่เข้ามาช่วยก็คือ **BigInt** *(AKA. BigNum)* ซึ่งมันคืออะไร๊??? ลองดูข้อ **698 Lucky Lotto**ก่อนก็ได้ เพราะข้อนั้นมีการใช้ Bignum
+ด้วยความที่มีการ Input/Output ที่สูงมากๆ เลยมีการใช้บางสิ่งที่เข้ามาช่วยก็คือ **BigInt** *(AKA. BigNum)* ซึ่งมันคืออะไร๊??? ลองดูข้อ [**698 Lucky Lotto**](https://github.com/Nepumi/OTOG-Editorial-2020/tree/master/20-Math%20%231/698%20Lucky%20Lotto#problem-b-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B8%9A%E0%B8%B6%E0%B9%89%E0%B8%A1%E0%B8%AD%E0%B8%B0)ก่อนก็ได้ เพราะข้อนั้นมีการใช้ Bignum
 
 แต่อย่างไรก็ตาม ด้วยความที่ไอ้แมวตัวนี้**มันโหดเกินไป การใช้ Bignum ก็เลยยังไม่สามารถผ่านได้** แต่เราสามารถนำอี Bignum มา**ใช้ประโยชน์ได้อีกอยู่....**
 
@@ -22,7 +22,7 @@
 
 จากสมการ
 
-![สมการแมวๆ](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/A.PNG?raw=true)
+![สมการแมวๆ](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/A.PNG?raw=true)
 
 ถ้าเราลองแทน x = 0,1,2,3 เราจะเห็นอะไรบางอย่าง
 
@@ -60,52 +60,52 @@ x = 3 ได้ *77428631942758 77428631942758 77428631942758 35*
 
 จากสมการ(อีกแล้ว)
 
-![สมการแมวๆA](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/A.PNG?raw=true)
+![สมการแมวๆA](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/A.PNG?raw=true)
 
 เราต้องค่อยๆแก้สมการไปด้วยกัน ถ้าเราสังเกตุดีๆว่าตัวเลขพวกนี้ยังไม่ค่อยน่ารักเท่าไหร่ หรือก็คือ ตัวเลขทั้งหมดนี้ยังไม่ตัดทอนเป็นเศษส่วนอย่างต่ำนั่นเอง(รู้ได้ไงวะ)
 
 ลองเอาตัวเลขทั้ง 3 ตัวไปหา หรม. ก็จะได้เป็น 7 ชะนั้น ลองเอา 7 ไปหารทั้งหมด ก็จะได้ด้ด้ด้ด้ด้
 
-![สมการแมวๆB](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/B.PNG?raw=true)
+![สมการแมวๆB](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/B.PNG?raw=true)
 
 เปลี่ยนรูปนิดนึงจะได้ง่ายขึ้น
 
-![สมการแมวๆC](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/C.PNG?raw=true)
+![สมการแมวๆC](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/C.PNG?raw=true)
 
-![สมการแมวๆD](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/D.PNG?raw=true)
+![สมการแมวๆD](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/D.PNG?raw=true)
 
-![สมการแมวๆE](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/E.PNG?raw=true)
+![สมการแมวๆE](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/E.PNG?raw=true)
 
-![สมการแมวๆF](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/F.PNG?raw=true)
+![สมการแมวๆF](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/F.PNG?raw=true)
 
-![สมการแมวๆG](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/G.PNG?raw=true)
+![สมการแมวๆG](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/G.PNG?raw=true)
 
-![สมการแมวๆH](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/H.PNG?raw=true)
+![สมการแมวๆH](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/H.PNG?raw=true)
 
-![สมการแมวๆI](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/I.PNG?raw=true)
+![สมการแมวๆI](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/I.PNG?raw=true)
 
 และสุดท้ายก็จะได้ในรูป
 
-![สมการแมวๆJ](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/J.PNG?raw=true)
+![สมการแมวๆJ](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/J.PNG?raw=true)
 
-คุ้นๆมั้ย มันคือ **อนุกรมเรขาคณิต** ![อนุกรมเรขาคณิตK](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/K.PNG?raw=true)
+คุ้นๆมั้ย มันคือ **อนุกรมเรขาคณิต** ![อนุกรมเรขาคณิตK](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/K.PNG?raw=true)
 
 > นานี๊เดอะฟัก
 
 มันก็คือ **ผลรวม**ของ**ลำดับเรขาคณิต**
 
-![อนุกรมเรขาคณิตL](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/L.PNG?raw=true)
+![อนุกรมเรขาคณิตL](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/L.PNG?raw=true)
 
 
 > แล้วลำดับเรขาคณิตมันคืออะหยังอีกกกก
 
 มันก็คือ ลำดับของตัวเลขที่**ค่อยๆคูณไปเรื่อยๆ** ซึ่งไอ้ตัวคุณ จะขอใช้ตัว r ละกัน
 
-![ลำดับเรขาคณิตM](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/M.PNG?raw=true)
+![ลำดับเรขาคณิตM](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/M.PNG?raw=true)
 
 ซึ่งในที่นี้จะให้ *a1 = 7742863194275800* และ *r = 10^14 หรือ 1e14*
 
-![สมการแมวๆN](https://github.com/Nepumi/SandboxEditorial/blob/master/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/N.PNG?raw=true)
+![สมการแมวๆN](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/689%20%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%86/IMAGE/N.PNG?raw=true)
 
 จะเห็นว่าถ้าเอา 35 มารวมด้วย ก็จะได้ผลลัพธ์คือ **ตัวเลข 77428631942758 วนกัน x ครั้ง และจบด้วย 35**
 
