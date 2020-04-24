@@ -45,7 +45,7 @@
 
 int P[10];
 int R[10];
-int LCS=1;//ครน.แหละ
+int LCM=1;//ครน.แหละ
 int YES = 1;
 unsigned long long ANS;
 int main()
@@ -56,7 +56,7 @@ int main()
     for(int i=0; i<8; i++)
     {
         scanf("%d",&P[i]);
-        LCS *= P[i];
+        LCM *= P[i];
     }
     for(int i=0; i<8; i++)scanf("%d",&R[i]);
 
@@ -77,7 +77,7 @@ int main()
         
         ANS = b;
         ANS -= i;
-        ANS/=LCS;
+        ANS/=LCM;
         if(ANS==0)
         {
             printf("saddo");
