@@ -16,7 +16,7 @@
 * \- คือการเอาเซตที่ตัวแรกมีแต่ตัวที่สองไม่มี
 เช่น A = {1, 2, 3} B = {3, 4, 5} จะได้ว่า A-B = {1, 2}
 
-![Union](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/SetU.png?raw=true) ![Intersect](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/SetI.png?raw=true) ![Difference](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/SetM.png?raw=true)
+![Union](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/SetU.png?raw=true) ![Intersect](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/SetI.png?raw=true) ![Difference](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/SetM.png?raw=true)
 
 
 
@@ -48,21 +48,21 @@
 
 ลองดูนี่
 
-![Union1](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/U1.PNG?raw=true)
+![Union1](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/U1.PNG?raw=true)
 
 จะเห็นว่า *3* น้อยกว่า *4* ก็ยัด 3 ลงใน C และเลื่อน a และ c
 
-![Union2](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/U2.PNG?raw=true)
+![Union2](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/U2.PNG?raw=true)
 
 แต่คราวนี้**ดันเท่ากัน** ก็ยัด 4 ลงใน C และเลื่อนทั้ง a b และ c
 
-![Union3](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/U3.PNG?raw=true)
+![Union3](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/U3.PNG?raw=true)
 
 พอนึกออกแล้วนะ ทำซ้ำไปเรื่อยๆๆ
 
-![Union4](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/U4.PNG?raw=true)
+![Union4](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/U4.PNG?raw=true)
 
-![Union5](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/U5.PNG?raw=true)
+![Union5](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/U5.PNG?raw=true)
 
 จากนั้นก็ตอบ C จบ
 
@@ -74,19 +74,19 @@
 * ถ้า**ทั้งสอง**ยังไม่ได้ชี้ช่องสุดท้ายก็ลองดูว่า**ทั้งสองเท่ากันหรือเปล่า** ถ้าทั้งสองเท่ากันก็ยัดใส่ C ไปเลย และก็เลื่อนๆๆๆ แต่ถ้าไม่เท่ากันก็เลื่อนอันที่น้อยกว่า ก็จบ
 
 
-![Intersect1](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/I1.PNG?raw=true)
+![Intersect1](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/I1.PNG?raw=true)
 
 จะเห็นว่าทั้ง 2 ไม่เท่ากัน ก็เลื่อนอันที่น้อยกว่า
 
-![Intersect2](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/I2.PNG?raw=true)
+![Intersect2](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/I2.PNG?raw=true)
 
 เมื่อเท่ากันก็ ยัดลงใน C และเลื่อนทั้งหมด
 
-![Intersect3](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/I3.PNG?raw=true)
+![Intersect3](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/I3.PNG?raw=true)
 
 ทำเหมือนกัน
 
-![Intersect4](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/I4.PNG?raw=true)
+![Intersect4](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/I4.PNG?raw=true)
 
 คราวนี้ ไอ้ A มันจบแล้ว ก็จบๆไป
 
@@ -99,19 +99,19 @@
 * ถ้า B จบแล้วก็ยัดที่เหลือ(จาก A)ลง C ให้หมด
 
 
-![Difference1](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/M1.PNG?raw=true)
+![Difference1](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/M1.PNG?raw=true)
 
 จะเห็นว่าทั้ง 2 ไม่เท่ากัน และ **A (*3*) น้อยกว่า** ก็ยัดใส่ C
 
-![Difference2](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/M2.PNG?raw=true)
+![Difference2](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/M2.PNG?raw=true)
 
 เมื่อเท่ากันก็ เลื่อนๆๆๆๆๆๆๆๆๆ
 
-![Difference3](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/M3.PNG?raw=true)
+![Difference3](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/M3.PNG?raw=true)
 
 ทำเหมือนกัน
 
-![Difference4](https://github.com/Nepumi/SandboxEditorial/blob/master/696%20Set%20calculator%231/Image/M4.PNG?raw=true)
+![Difference4](https://github.com/Nepumi/OTOG-Editorial-2020/blob/master/20-Math%20%231/696%20Set%20calculator%231/Image/M4.PNG?raw=true)
 
 คราวนี้ ไอ้ A มันจบแล้ว ก็จบๆไป
 
